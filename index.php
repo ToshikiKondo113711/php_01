@@ -4,12 +4,6 @@ echo 'おみくじ'.'<br>';
 
 $code = mt_rand(1,5);
 
-// $daikichiPath = 'img/daikichi.jpg';
-// $chuukichiPath = 'img/chuukichi.jpg';
-// $shoukichiPath = 'img/shoukichi.jpg';
-// $suekichiPath = 'img/suekichi.jpg';
-// $daikyouPath = 'img/daikyou.jpg';
-
 if(1 === $code){
     
     echo '<img src =img/daikichi.jpg>'.'<br>';
